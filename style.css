@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+html body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Manrope";
+  width: 375px;
+  height: auto;
+  margin: 5rem auto;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  width: 50%;
+  border-radius: 1rem;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.text {
+  margin: 0;
+  padding: 1rem;
+  color: hsl(214, 17%, 51%);
+  font-size: 13px;
+}
+
+.text h4 {
+  color: hsl(217, 19%, 35%);
+}
+
+.bottom {
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+  align-items: center;
+}
+
+.bottom #michelle {
+  height: 40px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.bottom .date {
+  color: hsl(214, 17%, 51%);
+}
+
+.nameDate {
+  line-height: 0.2rem;
+  font-size: 0.65rem;
+}
+
+#share {
+  height: 5%;
+  width: auto;
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
